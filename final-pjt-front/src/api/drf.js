@@ -1,4 +1,4 @@
-const HOST = 'http://localhost:8000/api/v1/'
+const HOST = 'https://mjyc-back.herokuapp.com/api/v1/'
 
 const ACCOUNTS = 'accounts/'
 const COMMUNITY = 'community/'

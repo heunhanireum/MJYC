@@ -14,7 +14,7 @@
         <div class="review_user">
           <router-link :to="{ name: 'profile', params: { username: review.user.username } }" class="text-decoration-none mx-4 text-center align-items-center" style="color: #fff;">
             <div>
-              <img link :src="`http://localhost:8000${review.user.profile_image}`" alt="profile_image" class="profile_image mb-2 mx-auto" style="width: 100px;"><br>
+              <img link :src="`https://mjyc-back.herokuapp.com${review.user.profile_image}`" alt="profile_image" class="profile_image mb-2 mx-auto" style="width: 100px;"><br>
 
             </div>
             <p >
